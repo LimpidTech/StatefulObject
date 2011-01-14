@@ -13,6 +13,9 @@ class StatefulObject(object):
         except IndexError:
             return None
 
+    def resetState(self):
+        self.states = []
+
     def getState(self, state=None):
         """ Get the current state, or the requested state if one is provided
             as the state argument.
