@@ -14,6 +14,8 @@ class StatefulObject(object):
             return None
 
     def resetState(self):
+        """ Reset our state back to the original class's behaviors. """
+
         self.states = []
 
     def getState(self, state=None):
