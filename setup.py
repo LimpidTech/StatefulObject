@@ -6,9 +6,9 @@ import sys
 parent_directory = os.path.abspath(os.path.dirname(__file__))
 
 metafiles = {
-    'README.md',
-    'CHANGES.md',
-    'CLASSIFIERS.txt',
+    'README.md': None,
+    'CHANGES.md': None,
+    'CLASSIFIERS.txt': None,
 }
 
 # The following bit will read each index from metafiles and fill it's value
