@@ -33,7 +33,7 @@ metadata = {
     'classifiers': metafiles['CLASSIFIERS.txt'],
     'author': 'Brandon R. Stoner',
     'author_email': 'monokrome@limpidtech.com',
-    'url': 'http://github.com:LimpidTech/StatefulObject',
+    'url': 'http://github.com/LimpidTech/StatefulObject',
     'keywords': '',
     'packages': ['states'],
     'install_requires': dependancies,
