@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from distutils.core import setup
 
 import os
 import sys
@@ -26,7 +26,7 @@ for filename in metafiles:
 dependancies = []
 
 metadata = {
-    'name': 'stateful-objects',
+    'name': 'stateful-object',
     'version': '0.0.5',
     'description': 'Implements an interface for stateful object behaviors.',
     'long_description': metafiles['README.md'] + '\n\n' + metafiles['CHANGES.md'],
@@ -35,12 +35,9 @@ metadata = {
     'author_email': 'monokrome@limpidtech.com',
     'url': 'http://limpidtech.com/',
     'keywords': '',
-    'packages': find_packages(),
-    'include_package_data': True,
-    'zip_safe': True,
+    'packages': ['states'],
     'install_requires': dependancies,
     'tests_require': dependancies,
-    'test_suite': 'states',
 }
 
 setup(**metadata)
