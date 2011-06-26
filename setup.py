@@ -27,7 +27,7 @@ dependancies = []
 
 metadata = {
     'name': 'stateful-object',
-    'version': '0.0.5',
+    'version': '0.1',
     'description': 'Implements an interface for stateful object behaviors.',
     'long_description': metafiles['README.md'] + '\n\n' + metafiles['CHANGES.md'],
     'classifiers': metafiles['CLASSIFIERS.txt'],
