@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include CLASSIFIERS.txt
+include CHANGES.md
+
