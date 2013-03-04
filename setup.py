@@ -22,7 +22,6 @@ for filename in metafiles:
     except IOError:
         pass
 
-# No dependancies :)
 dependencies = []
 
 metadata = {
@@ -36,8 +35,8 @@ metadata = {
     'url': 'http://github.com/LimpidTech/StatefulObject',
     'keywords': '',
     'packages': ['states'],
-    'install_requires': dependancies,
-    'tests_require': dependancies,
+    'install_requires': dependencies,
+    'tests_require': dependencies,
 }
 
 setup(**metadata)
