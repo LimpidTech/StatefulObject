@@ -23,7 +23,7 @@ for filename in metafiles:
         pass
 
 # No dependancies :)
-dependancies = []
+dependencies = []
 
 metadata = {
     'name': 'stateful-object',
